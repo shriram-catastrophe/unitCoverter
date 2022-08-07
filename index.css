@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#holder{
+    width:550px;
+    height:730px;
+    text-align: center;
+}
+#whatItDoes{
+    font-family: 'Inter', sans-serif;
+    font-size: xx-large;
+    color: white;
+    font-weight: 800;
+    padding:30px 0;
+}
+#inputValue{
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    width: 120px;
+    height: 90px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+    padding:0 25px;
+}
+#inputValue:focus{
+    outline: none;
+}
+#btn{
+    margin:25px 0 0 0;
+    font-size: 18px;
+    font-weight:400;
+    color: #3D3D3D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+#holder-1{
+    background: #6943FF;
+    height:285px;
+}
+#holder-2{
+    background: #1F2937;
+    height:445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conv{
+    background: #273549;
+    width: 500px;
+    height:100px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+#conv1what,#conv2what,#conv3what{
+    margin:20px 0 0 0;
+}
+#conv1value,#conv2value,#conv3value{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0 0 0;
+}
